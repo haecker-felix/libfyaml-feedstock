@@ -8,8 +8,8 @@ source:
   url: https://github.com/pantoniou/libfyaml/releases/download/v{{ version }}/libfyaml-{{ version }}.tar.gz
   sha256: a59cc3331e2eb903ec36933ad52a45888041cac31e44f553a00511131242c483
   patches:
-    - recipe/patches/fix-pkgconfig.patch
-    - recipe/patches/fix-stray-if.patch
+    - patches/fix-pkgconfig.patch
+    - patches/fix-stray-if.patch
 
 build:
   number: 1
